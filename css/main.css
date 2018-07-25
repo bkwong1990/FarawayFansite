@@ -25,6 +25,12 @@ body{
   font-size:4em;
 }
 
+@media all and (max-width: 320px) {
+  h1, #title{
+    font-size:2em !important;
+  }
+}
+
 section, nav, .dropdown-menu, .dropdown-menu a{
   background-color: #89683c;
   text-shadow: 2px 2px 4px #000000;
@@ -50,10 +56,6 @@ h2{
   text-align: center;
 }
 
-footer {
-  margin-top: 3%;
-}
-
 .dropdown-item:hover{
   color: black !important;
   text-shadow: 2px 2px 4px #89683c;
@@ -61,4 +63,8 @@ footer {
 
 .container-fluid, .container{
   margin: 0 !important;
+}
+
+footer.container-fluid{
+  margin-top: 3% !important;
 }

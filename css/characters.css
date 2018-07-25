@@ -21,7 +21,7 @@ th{
   color:	#FFFACD;
 }
 
-@media (max-width: 300) {
+@media (max-width: 300px) {
   table{
     font-size: 0.3rem;
   }

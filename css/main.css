@@ -68,3 +68,10 @@ h2{
 footer.container-fluid{
   margin-top: 3% !important;
 }
+
+
+@media all and (max-width: 320px) {
+  td, th ,.container-fluid, .card {
+    padding: 1px !important;
+  }
+}

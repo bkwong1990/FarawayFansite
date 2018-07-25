@@ -1,5 +1,6 @@
 document.getElementsByTagName("footer")[0].innerHTML =
 `<section class="col-12 col-md-6">
+<h3>About me</h3>
 <p>Site made by Bradley Wong w/ Bootstrap 4 framework.</p>
 <p>Contact: bkwong1990 at gmail dot com</p>
 <p><a href="https://codepen.io/bkwong1990/">My Codepen page</a></p>

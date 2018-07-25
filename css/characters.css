@@ -21,14 +21,21 @@ th{
   color:	#FFFACD;
 }
 
-@media (max-width: 300px) {
-  table{
-    font-size: 0.3rem;
-  }
-}
 
 @media (max-width: 575.98px) {
   table{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  table{
     font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 250px) {
+  table{
+    font-size: 0.3rem;
   }
 }

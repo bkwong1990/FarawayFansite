@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'MS UI Gothic';
+    src: url('fonts/MS-UIGothic.eot');
+    src: url('fonts/MS-UIGothic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MS-UIGothic.woff2') format('woff2'),
+        url('fonts/MS-UIGothic.woff') format('woff'),
+        url('fonts/MS-UIGothic.ttf') format('truetype'),
+        url('fonts/MS-UIGothic.svg#MS-UIGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  font-family: 'MS UI Gothic', Arial;
+  font-size: 1.2em;
+  background-color: #9ff4fd;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#title {
+  color: brown;
+  text-shadow: 2px 2px 4px gray;
+  text-align: center;
+  font-size:4em;
+}
+
+section, nav, .dropdown-menu, .dropdown-menu a{
+  background-color: #89683c;
+  text-shadow: 2px 2px 4px #000000;
+  color: white !important;
+}
+
+section, .card, nav, .dropdown-menu{
+  border-style: outset;
+  border-width: thick;
+  border-radius: 1em;
+  border-color: #E86100;
+}
+
+section{
+  display: inline-block;
+}
+
+section a{
+  color: silver;
+}
+
+h2{
+  text-align: center;
+}
+
+footer {
+  margin-top: 3%;
+}
+
+.dropdown-item:hover{
+  color: black !important;
+  text-shadow: 2px 2px 4px #89683c;
+}

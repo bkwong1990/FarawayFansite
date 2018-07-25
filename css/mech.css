@@ -1,0 +1,19 @@
+body > div {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-dialog{
+  /*width: 4000px !important;*/
+  max-width: 97%;
+}
+
+.modal-body, .modal-header, .modal-footer{
+  background: linear-gradient(to bottom right, #e2a738, white) !important;
+  color:black;
+}
+.card{
+  background: radial-gradient(circle, #89683c, #a36d45);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}

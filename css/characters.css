@@ -1,0 +1,22 @@
+.char{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgholder img{
+  border-style: outset;
+  border-width: thick;
+  border-radius: 0.9em;
+  border-color: silver;
+}
+
+th{
+  color:	#FFFACD;
+}

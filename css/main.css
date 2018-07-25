@@ -58,3 +58,7 @@ footer {
   color: black !important;
   text-shadow: 2px 2px 4px #89683c;
 }
+
+.container-fluid, .container{
+  margin: 0 !important;
+}

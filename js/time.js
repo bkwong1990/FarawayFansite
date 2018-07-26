@@ -29,4 +29,4 @@ function styleByTime(){
 }
 
 styleByTime();
-var timer = setInterval(styleByTime, 3.6e6);
+var timer = setInterval(styleByTime, 60000);

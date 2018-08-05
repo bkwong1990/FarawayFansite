@@ -11,7 +11,7 @@ document.getElementsByTagName("footer")[0].innerHTML =
 <section class="col-12 col-md-6">
 <h3>Special thanks to:</h3>
 <ul>
-  <li>Fantasy Factory for developing this game</li>
+  <li>Fantasy Factory for developing <strong>Faraway Story (悠遠物語)</strong></li>
   <li>vgperson for making a quality translation of this game</li>
   <li>University of Michigan for hosting the "Web Design for Everybody" Coursera specialization</li>
 </ul>

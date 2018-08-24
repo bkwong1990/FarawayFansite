@@ -12,3 +12,19 @@ body > div {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
+
+.btn {
+  animation-name: to_gradient;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes to_gradient {
+  0% {
+    background-image: radial-gradient(blue, #551A8B);
+  }
+
+  100%{
+    background-image: radial-gradient(blue, black);
+  }
+}

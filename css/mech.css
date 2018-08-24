@@ -14,14 +14,41 @@ body > div {
 }
 
 .btn {
-  animation-name: to_gradient;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: to_gradient;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation: to_gradient 2s infinite;
 }
 
 @keyframes to_gradient {
   0% {
     background-image: radial-gradient(blue, #551A8B);
+  }
+
+  5% {
+    background-image: radial-gradient(blue, #551A8B);
+  }
+
+  50%{
+    background-image: radial-gradient(blue, purple);
+  }
+
+  100%{
+    background-image: radial-gradient(blue, black);
+  }
+}
+
+@-webkit-keyframes to_gradient {
+  0% {
+    background-image: radial-gradient(blue, #551A8B);
+  }
+
+  5% {
+    background-image: radial-gradient(blue, #551A8B);
+  }
+
+  50%{
+    background-image: radial-gradient(blue, purple);
   }
 
   100%{

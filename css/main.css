@@ -50,7 +50,7 @@ section{
 
 section a, .dropdown-menu a, nav a{
   color: #cde7f0 !important;
-  text-shadow: 4px 4px 8px #000000;
+  text-shadow: 4px 4px 8px #330f53;
 }
 
 .active a {

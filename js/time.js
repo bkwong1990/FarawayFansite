@@ -1,7 +1,5 @@
-var test_opposite = false;
-
 function styleByTime(){
-  if((new Date()).getHours() >= 6 && (new Date()).getHours() < 18 && !test_opposite)
+  if((new Date()).getHours() >= 6 && (new Date()).getHours() < 18 )
   {
     document.getElementById("day_night").innerHTML = `
     body{

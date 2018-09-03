@@ -31,6 +31,10 @@ body{
   }
 }
 
+main {
+  padding-top: 4.5rem;
+}
+
 section, nav, .dropdown-menu {
   background-color: rgba(137, 104, 60, 0.9);
   text-shadow: 2px 2px 4px #000000;

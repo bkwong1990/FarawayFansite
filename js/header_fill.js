@@ -1,7 +1,7 @@
 function fillHeader(active_link_id)
 {
   document.getElementsByTagName("header")[0].innerHTML =
-  `<nav class="navbar navbar-expand-md navbar-dark" >
+  `<nav class="navbar navbar-expand-md navbar-dark fixed-top" >
   <a class="navbar-brand" href="#"><img src="img/pia_icon.jpg" width="32" height="32" alt="Pia's menu icon"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>

@@ -18,6 +18,10 @@ body{
   background-attachment: fixed;
 }
 
+h1, h2, h3:not(.modal-title){
+  padding-bottom: 1.4rem;
+}
+
 #title {
   color: brown;
   text-shadow: 2px 2px 4px gray;
@@ -81,7 +85,6 @@ h2{
 footer.container-fluid{
   margin-top: 3% !important;
 }
-
 
 @media all and (max-width: 320px) {
   td, th ,.container-fluid, .card {

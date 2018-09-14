@@ -23,10 +23,15 @@ h1, h2, h3:not(.modal-title){
 }
 
 #title {
-  color: brown;
-  text-shadow: 2px 2px 4px gray;
+  color: white;
+  text-shadow: 2px 2px 4px black;
   text-align: center;
   font-size:4em;
+  background-color: rgba(137, 104, 60, 0.9);
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+
 }
 
 @media all and (max-width: 320px) {
@@ -36,7 +41,8 @@ h1, h2, h3:not(.modal-title){
 }
 
 main {
-  padding-top: 4.5rem;
+  padding-top: 6.5rem;
+  word-wrap: break-word;
 }
 
 section, nav, .dropdown-menu {
@@ -45,7 +51,7 @@ section, nav, .dropdown-menu {
   color: white !important;
 }
 
-section, .card, nav, .dropdown-menu{
+section, .card, nav, .dropdown-menu, #title{
   border-style: outset;
   border-width: thick;
   border-radius: 1em;

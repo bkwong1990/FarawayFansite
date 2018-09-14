@@ -97,3 +97,19 @@ footer.container-fluid{
     padding: 1px !important;
   }
 }
+
+@media all and (min-width: 730px)
+{
+  #title{
+    margin-left:1em;
+    margin-right:1em;
+  }
+}
+
+@media all and (min-width: 980px)
+{
+  #title{
+    margin-left:2.5em;
+    margin-right:2.5em;
+  }
+}

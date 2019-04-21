@@ -220,10 +220,10 @@ mechDict["element"] = {
         <li><strong>Water</strong>: Spells of this element are considered the most balanced, but also the least specialized in terms of combat traits. Opposes Thunder.</li>
         <li><strong>Wind</strong>: Spells of this element are fast, can combo, and can go through field obstacles, but are weak. Opposes Earth.</li>
         <li><strong>Earth</strong>: Spells of this element have high power, short cast times, and good range, but their skill delay is long.</li>
-        <li><strong>Light</strong>: Spells of this element, like water, seem to be fairly balanced for the most part. Opposes Dark.</li>
-        <li><strong>Dark</strong>: Not many spells of this element have been revealed in the game so far, but the standard ones seem to focus on binding the enemy. Opposes Light.</li>
+        <li><strong>Light</strong>: Spells of this element have high MP cost for their level, but cast quickly. It also has a passive to boost healing. Opposes Dark.</li>
+        <li><strong>Dark</strong>: Spells of this element have high MP cost and power, as well as long cast times. It also has a passive to boost offensive and ailment spells of any element. Opposes Light.</li>
         <li><strong>Life</strong>: Spells of this element generally focus on healing and support rather than offense. However, undead enemies can be targeted and harmed by healing spells. Opposes Ruin.</li>
-        <li><strong>Ruin</strong>: Spells of this element are powerful against targets with no status ailments, but have high MP cost. Opposes life.</li>
+        <li><strong>Ruin</strong>: Spells of this element are powerful against targets with no status ailments, but have high MP cost. Most enemies outside of undead have little resistance to Ruin. Opposes life.</li>
       </ul>
       <h3>Element Graphs</h3>
      <p>Every character has innate talent levels in the various elements, determining which spells they can use. This will indicated by their element graph, which can be viewed by going into a character's status screen and pressing the left or right arrow keys. All elements have opposites, and opposing element levels cannot add up to more than 6. Strangely, most characters will only be at level 1 for both Life and Ruin while other opposing elements add up to exactly 6. Even more strange is that Light, Dark, Life, and Ruin get a separate graph from the other elements.</p>
